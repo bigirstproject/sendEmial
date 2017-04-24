@@ -5,5 +5,7 @@
 /build
 /captures
 /nativelogger/*.iml
-/nativelogger/nativelogger.iml
+/nativelogger/build
 /app/app.iml
+/app/build
+/*.iml
