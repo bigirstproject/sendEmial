@@ -1,0 +1,9 @@
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+/nativelogger/*.iml
+/nativelogger/nativelogger.iml
+/app/app.iml

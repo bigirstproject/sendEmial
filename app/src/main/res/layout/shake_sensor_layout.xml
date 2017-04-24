@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="250dip"
+        android:layout_height="300dip"
+        android:layout_gravity="center"
+        android:background="@drawable/send_email_bg_sharp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/feed_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="意见反馈"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/feed_book_atachment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"     android:layout_marginTop="25dip"
+            android:text="意见反馈(带附件)"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/feed_book_sll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"     android:layout_marginTop="25dip"
+            android:gravity="center"
+            android:text="意见反馈（SSL）"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/feed_book_sll_to_bb_bcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"     android:layout_marginTop="25dip"
+            android:gravity="center"
+            android:text="意见反馈(SLL to bb bcc)"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/no_Accidentally"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:gravity="center"
+            android:text="不小心摇到"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

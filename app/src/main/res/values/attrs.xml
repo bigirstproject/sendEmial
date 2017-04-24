@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleView">
+        <attr name="titleText" format="string" />
+        <attr name="fullScreen" format="boolean" />
+        <attr name="leftImage" format="reference" />
+        <attr name="rightImage" format="reference" />
+        <!-- 标题栏右:可见度与图片 -->
+        <attr name="rightVisibility">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+    </declare-styleable>
+
+</resources>

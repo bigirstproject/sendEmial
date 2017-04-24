@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginBottom="50dip"
+        android:textSize="18sp"
+        android:textColor="#ff000000"
+        android:layout_height="wrap_content"
+        android:text="log邮件反馈:\n\n1、支持三种模式，普通邮件模式、SLL加密邮件模式和SSL加密支持抄送和密送\n2、三种模式都支持携带附件\n3、支持摇一摇邮件反馈\n\n注：Demo中如邮件发送不成功，可能发送密码已经修改"/>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="250dip"
+        android:layout_height="48dip"
+        android:text="普通模式"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="250dip"
+        android:layout_height="48dip"
+        android:text="普通模式（带附件）"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="250dip"
+        android:layout_height="48dip"
+        android:text="SSL"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="250dip"
+        android:layout_height="48dip"
+        android:text="SSL（to cc bcc）"/>
+</LinearLayout>

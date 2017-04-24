@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_padding"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/bg_bar"
+        tools:ignore="Suspicious0dp" />
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        style="@style/title_style">
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxEms="12"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/txt_title_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txt_title"
+            android:padding="7dp"
+            android:scaleType="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_left"
+            style="@style/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxEms="12"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_right"
+            style="@style/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxEms="12"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
